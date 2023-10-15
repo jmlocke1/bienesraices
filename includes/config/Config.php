@@ -1,5 +1,6 @@
 <?php
 //namespace App\Config;
+require_once "ConfigLocal.php";
 define('DIR_ROOT', dirname(dirname(__DIR__)).'/');
 define('TEMPLATES_URL', DIR_ROOT.'includes/templates');
 define('FUNCIONES_URL', DIR_ROOT.'funciones/funciones.php');
@@ -36,17 +37,21 @@ class Config {
 	/**
 	 * Host de la base de datos
 	 */
-	const DB_HOST = 'localhost';
+	const DB_HOST = ConfigLocal::DB_HOST;
 	/**
 	 * Usuario de la base de datos
 	 */
-	const DB_USER = 'usprueba';
+	const DB_USER = ConfigLocal::DB_USER;
 	/**
 	 * Password del usuario de la base de datos
 	 */
-	const DB_PASSWORD = 'usprueba';
+	const DB_PASSWORD = ConfigLocal::DB_PASSWORD;
 	/**
 	 * Nombre de la base de datos
 	 */
-	const DB_NAME = 'bienes_raices';
+	const DB_NAME = ConfigLocal::DB_NAME;
+	/**
+	 * URL del Portfolio
+	 */
+	const PORTFOLIO = ConfigLocal::PORTFOLIO;
 }

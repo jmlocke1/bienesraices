@@ -32,6 +32,7 @@ if(!isset($inicio)){
                 <div class="derecha">
                     <img src="/build/img/dark-mode.svg" alt="Icono del modo oscuro del tema" class="dark-mode-boton">
                     <nav data-cy="navegacion-header" class="navegacion">
+                        <a href="<?= Config::PORTFOLIO; ?>">Portfolio</a>
                         <a href="/nosotros">Nosotros</a>
                         <a href="/propiedades">Propiedades</a>
                         <a href="/blog">Blog</a>
@@ -58,6 +59,7 @@ if(!isset($inicio)){
     <footer class="footer seccion">
         <div class="contenedor contenedor-footer">
             <nav data-cy="navegacion-footer" class="navegacion">
+                <a href="<?= Config::PORTFOLIO; ?>">Portfolio</a>
                 <a href="/nosotros">Nosotros</a>
                 <a href="/propiedades">Propiedades</a>
                 <a href="/blog">Blog</a>

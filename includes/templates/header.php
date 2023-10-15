@@ -29,6 +29,7 @@ $auth = $_SESSION['login'] ?? false;
                 <div class="derecha">
                     <img src="/build/img/dark-mode.svg" alt="Icono del modo oscuro del tema" class="dark-mode-boton">
                     <nav class="navegacion">
+                        <a href="<?= Config::PORTFOLIO; ?>">Portfolio</a>
                         <a href="/nosotros.php">Nosotros</a>
                         <a href="/anuncios.php">Anuncios</a>
                         <a href="/blog.php">Blog</a>
