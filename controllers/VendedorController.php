@@ -6,7 +6,7 @@ use MVC\Router;
 use Model\Propiedad;
 use Model\Notification;
 use Model\Vendedor;
-use Model\Database\DB;
+use Model\database\DB;
 
 class VendedorController {
 

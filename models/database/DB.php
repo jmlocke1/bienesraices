@@ -1,5 +1,5 @@
 <?php
-namespace Model\Database;
+namespace Model\database;
 //require_once dirname(dirname(__DIR__))."/includes/config/Config.php";
 class DB {
     protected static $db;
