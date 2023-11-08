@@ -18,7 +18,7 @@ class Image{
 		
 		// Crear carpeta
 		if(!is_dir($this->imageFolder)){
-			mkdir($this->imageFolder);
+			mkdir($this->imageFolder, 0775);
 		}
 		
 		$this->imageName = $this->getImageName($file['name']['imagen']);
